@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <link rel="stylesheet" href="./registerstyle-bear.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="">
+    <div class="flex">
+        <img id="bear" src="./media/icon-for-registretion/bear-img.svg" alt="bear-img">
+        <button class="mode-switcher">Switch Theme</button>
+    <section class="account-create">
+        <form action="#" method="POST" id="form"></form>
+        <div class="form-wrapper">
+            <div class="title-wrapper">
+                <h2>Create account</h2>
+                <div class="img-wrapper">
+                    <div>
+                        <img class="img-facebook" src="/media/icon-for-registretion/facebook-icon-black.svg" alt="facebook">
+                    </div>
+                    <div>
+                        <img class="img-twitter" src="/media/icon-for-registretion/twitter-icon-black.svg" alt="twitter">
+                    </div>
+                    <div>
+                        <img class="img-google" src="./media/icon-for-registretion/google-icon-black.svg" alt="google">
+                    </div>
+                </div>
+            </div>
+            <div class="form-text-wrapper">
+                <p>Or register using email & password</p>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="register-fields">
+            <div class="field">
+                <h3>Full name</h3>
+                <input id="fullNameInput" type="text" placeholder="John rambo" maxlength="18" minlength="5">
+            </div>
+            <div class="field">
+                <h3>Email address</h3>
+                <input id="emailInput" type="text" placeholder="hello@hey.com" maxlength="18" minlength="5">
+            </div>
+            <div class="field">
+                <h3>Create password</h3>
+                <input id="passwordInput" type="text" placeholder="••••••••••••" maxlength="18" minlength="5">
+            </div>
+            <div class="field">
+                <h3>Confirm password</h3>
+                <input id="confirmPasswordInput" type="text" placeholder="••••••••••••" maxlength="18" minlength="5">
+            </div>
+        </div>
+        <div class="policy-terms">
+            <input type="radio" id="option1" name="options" value="вариант 1" class="radio-button">
+            <label for="option1" class="custom-radio"></label>
+            <p>I agree to the <a href="">terms</a> & <a href="">privacy policy</a></p>
+        </div>
+        <div class="click">
+            <button class="click-register">Register</button>
+        </div>
+    </section>
+    </div>
+</div>
+</body>
+<script src="theme.js"></script>
+</html>

@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-style: normal;
+    line-height: normal;
+    justify-self: center;
+    font-family: 'Inter', sans-serif;
+}
+
+/* FORM */
+.account-create {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(215, 215, 215, 0.25);
+    margin: auto 133px auto 137px;
+}
+
+.title-wrapper {
+    display: flex;
+    margin: 24px 41px 17px 42px;
+    justify-content: space-between;
+}
+
+.title-wrapper h2 {
+    width: 189px;
+    color: var(--black-03, #414344);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.img-wrapper {
+    display: flex;
+    gap: 19px;
+}
+
+.form-text-wrapper {
+    margin: 0px 38px 4px 42px;
+}
+
+.form-text-wrapper p {
+    margin-bottom: 17px;
+    color: var(--black-04, #676767);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.line {
+    margin-bottom: 27px;
+    width: 370px;
+    height: 1px;
+    color: #EFEFEF;
+    border: 1px solid #EFEFEF;
+}
+
+.register-fields {
+    margin: 1px 38px 49px 42px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+#myInput:focus {
+    color: black;
+}
+
+#bear {
+    height: 100vh;
+}
+
+.field input {
+    border-radius: 4px;
+    border: 1px solid var(--light-grey-06, #E3E1E1);
+    padding: 22px 145px 19px 23px;
+    color: var(--light-grey-06, #E3E1E1);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+.field h3 {
+    margin-bottom: 18px;
+    color: var(--black-03, #414344);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: var(--light-grey-06, #E3E1E1);
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+::placeholder::focus {
+    color: black
+}
+
+.policy-terms {
+    display: flex;
+    margin: 0px 38px 49px 42px;
+    justify-content: space-between;
+}
+
+.click {
+    margin: 1px 41px 60px 42px;
+}
+
+.click-register {
+    width: 367px;
+    height: 60px;
+    border-radius: 4px;
+    background: var(--blue-01, #0A55C6);
+    border: none;
+    color: var(--light-grey-01, #FCFCFC);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.policy-terms p {
+    color: var(--black-04, #676767);
+    margin-right: 10px;
+}
+
+.policy-terms a {
+    color: var(--blue-03, #2D76E2);
+    border-bottom: 2px solid var(--blue-03, #2D76E2);
+    text-decoration: none;
+}
+
+.radio-button {
+    border-radius: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.mode-switcher {
+    position: absolute;
+    margin-left: 1403px;
+    margin-bottom: 820px;
+    border-radius: 20px;
+    width: 50px;
+}
+
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #B0B0B0;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* DARK-THEME */
+.dark-theme body {
+    background: var(--black-01, #151718);
+    color: #fff;
+}
+
+.dark-theme .flex {
+    background-color: #151718;
+}
+
+.dark-theme .account-create {
+    background: var(--black-02, #2D2F30);
+    box-shadow: none;
+}
+
+.dark-theme h2 {
+    color: var(--light-grey-02, #FBFAFA);
+}
+
+.dark-theme p {
+    color: var(--light-grey-03, #F6F6F6);
+}
+
+.dark-theme .form-text-wrapper .line {
+    border: 1px solid #151718;
+}
+
+.dark-theme h3 {
+    color: var(--black-06, #B0B0B0);
+}
+
+.dark-theme input {
+    background: var(--black-03, #414344);
+    border: 1px solid #2D2F30;
+}
+
+.dark-theme input::placeholder {
+    color: var(--black-01, #151718);
+}
+
+.dark-theme button {
+    background: var(--blue-03, #2D76E2);
+}
+
+.dark-theme .account-create .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.dark-theme .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

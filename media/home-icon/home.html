@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="main-navigation">
+            <div class="company-logo">
+                <img src="./media/home-icon/home-icon.svg" alt="home-icon">
+                <p>Company</p>
+            </div>
+            <ul>
+                <div class="home-about-store">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>  
+                </div>
+
+                <input type="checkbox" id="darkmode-toggle" class="dark-mode-input">   
+                <label for="darkmode-toggle" class="dark-mode-switcher">
+                    <img src="./media/home-icon/sun-icon.svg" alt="sun" class="sun">
+                    <img src="./media/home-icon/moon-icon.svg" alt="moon" class="moon">
+                </label>
+                
+                
+
+                <div class="account">
+                    <li>Account</li>
+                <li><img src="./media/home-icon/drop-down-icon.svg" alt="drop-down" class="drop-down"></li>
+                </div>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="m-wrapper">
+            <section class="main-section-wrapper">
+                <div class="main-section-description">
+                    <h1>Hello world</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                </div>
+                <div class="hello-world-button">
+                    <button class="hello-world-button-one"><span class="button-one-text">Button</span></button>
+                    <button class="hello-world-button-two"><span class="button-two-text">Button</span></button>
+                </div>
+            </section>
+    
+           
+            <section class="account-login" class="account-theme">
+                <form action="#" method="POST"></form>
+                <div class="form-wrapper">
+                    <div class="title-wrapper">
+                        <h2>Login account</h2>
+                        <div class="img-wrapper">
+                            <div>
+                                <img src="./media/icon-for-registretion/facebook-icon-black.svg" alt="facebook" class="img-facebook">
+                            </div>
+                            <div>
+                                <img src="./media/icon-for-registretion/twitter-icon-black.svg" alt="twitter" class="img-twitter">
+                            </div>
+                            <div>
+                                <img src="./media/icon-for-registretion/google-icon-black.svg" alt="google" class="img-google">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-text-wrapper">
+                        <p>Or login using email & password</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="register-fields">
+                    <div class="field">
+                        <h3>Email address</h3>
+                        <input id="myInput" type="text" placeholder="hello@hey.com" maxlength="18" minlength="5">
+                    </div>
+                    <div class="field">
+                        <h3>Password</h3>
+                        <input id="myInput" type="text" placeholder="••••••••••••" maxlength="18" minlength="5">
+                    </div>
+                </div>
+                <div class="policy-terms">
+                    <div class="rembember">
+                        <label class="container">
+                            <p>Remember me</p>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                            </label>
+                    </div>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <div class="click">
+                    <button class="click-register"><p>Login</p></button>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+<script src="./homethem.js"></script>
+</html>

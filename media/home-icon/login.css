@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-style: normal;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+/* FORM */
+
+.account-login {
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(215, 215, 215, 0.25);
+    margin: auto 133px auto 137px;
+}
+.title-wrapper {
+    display: flex;
+    margin: 24px 41px 17px 42px;
+    justify-content: space-between;
+}
+
+.title-wrapper h2 {
+    width: 189px;
+    color: var(--black-03, #414344);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.img-wrapper {
+    display: flex;
+    gap: 19px;
+}
+.form-text-wrapper {
+    margin: 0px 38px 4px 42px;
+}
+
+.form-text-wrapper p {
+    margin-bottom: 17px;
+    color: var(--black-04, #676767);
+
+    font-size: 14px;
+    font-weight: 400;
+}
+.line {
+    margin-bottom: 27px;
+    width: 370px;
+    height: 1px;
+    color: #EFEFEF;
+    border: 1px solid #EFEFEF;
+}
+
+.register-fields {
+    margin: 1px 38px 49px 42px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+#myInput:focus{
+    color: black;
+  }
+
+#cocteil {
+    height: 100vh;
+}
+.field input {
+    width: 367px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid var(--light-grey-06, #E3E1E1);
+    padding: 22px 220px 19px 23px;
+    color: var(--light-grey-06, #E3E1E1);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 19px;
+    font-family: 'Inter', sans-serif;
+}
+.field h3 {
+    margin-bottom: 18px;
+    color: var(--black-03, #414344);
+    font-size: 16px;
+    font-weight: 400;
+}
+::placeholder {
+    color: var(--light-grey-06, #E3E1E1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+::placeholder::focus {
+    color:black
+}
+.policy-terms {
+    display: flex;
+    margin: 0px 44px 49px 42px;
+    justify-content: space-between;
+}
+
+.click {
+    margin: 1px 41px 3px 42px;
+}
+.rembember {
+    display: flex;
+    gap: 15px;
+}
+.click-register {
+    width: 367px;
+    height: 60px;
+    border-radius: 4px;
+    background: var(--blue-01, #0A55C6);
+    border: none;
+    color: var(--light-grey-01, #FCFCFC);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.policy-terms p {
+    color: var(--black-04, #676767);
+    font-size: 16px;
+    font-weight: 400;
+}
+.policy-terms a {
+    color: var(--blue-03, #2D76E2);
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 2px solid var(--blue-03, #2D76E2);;
+    text-decoration: none;
+}
